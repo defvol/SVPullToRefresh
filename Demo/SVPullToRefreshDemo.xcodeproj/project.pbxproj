@@ -18,7 +18,22 @@
 		22E0D93D1545EE7600BB6BB5 /* SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E0D93B1545EE7600BB6BB5 /* SVPullToRefresh.m */; };
 		22E0D9411545EE9000BB6BB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E0D9401545EE9000BB6BB5 /* QuartzCore.framework */; };
 		22E0D94B1545F63300BB6BB5 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 22E0D94A1545F63300BB6BB5 /* README.textile */; };
+		DC235B351600F64800D66AE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC235B341600F64800D66AE8 /* SenTestingKit.framework */; };
+		DC235B361600F64800D66AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E0D9181545EE5B00BB6BB5 /* UIKit.framework */; };
+		DC235B371600F64800D66AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E0D91A1545EE5B00BB6BB5 /* Foundation.framework */; };
+		DC235B3D1600F64800D66AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC235B3B1600F64800D66AE8 /* InfoPlist.strings */; };
+		DC235B401600F64800D66AE8 /* SVPullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC235B3F1600F64800D66AE8 /* SVPullToRefreshTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC235B461600F65C00D66AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E0D90B1545EE5B00BB6BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E0D9131545EE5B00BB6BB5;
+			remoteInfo = SVPullToRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		22E0D9141545EE5B00BB6BB5 /* SVPullToRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVPullToRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +53,12 @@
 		22E0D93B1545EE7600BB6BB5 /* SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefresh.m; sourceTree = "<group>"; };
 		22E0D9401545EE9000BB6BB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		22E0D94A1545F63300BB6BB5 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.textile; path = ../README.textile; sourceTree = "<group>"; };
+		DC235B331600F64800D66AE8 /* SVPullToRefreshTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVPullToRefreshTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC235B341600F64800D66AE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC235B3A1600F64800D66AE8 /* SVPullToRefreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVPullToRefreshTests-Info.plist"; sourceTree = "<group>"; };
+		DC235B3C1600F64800D66AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC235B3F1600F64800D66AE8 /* SVPullToRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefreshTests.m; sourceTree = "<group>"; };
+		DC235B411600F64800D66AE8 /* SVPullToRefreshTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVPullToRefreshTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC235B2F1600F64800D66AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC235B351600F64800D66AE8 /* SenTestingKit.framework in Frameworks */,
+				DC235B361600F64800D66AE8 /* UIKit.framework in Frameworks */,
+				DC235B371600F64800D66AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +92,7 @@
 				22E0D94A1545F63300BB6BB5 /* README.textile */,
 				22E0D91E1545EE5B00BB6BB5 /* Demo */,
 				22E0D9391545EE7600BB6BB5 /* SVPullToRefresh */,
+				DC235B381600F64800D66AE8 /* SVPullToRefreshTests */,
 				22E0D9171545EE5B00BB6BB5 /* Frameworks */,
 				22E0D9151545EE5B00BB6BB5 /* Products */,
 			);
@@ -70,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				22E0D9141545EE5B00BB6BB5 /* SVPullToRefreshDemo.app */,
+				DC235B331600F64800D66AE8 /* SVPullToRefreshTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +114,7 @@
 				22E0D9181545EE5B00BB6BB5 /* UIKit.framework */,
 				22E0D91A1545EE5B00BB6BB5 /* Foundation.framework */,
 				22E0D91C1545EE5B00BB6BB5 /* CoreGraphics.framework */,
+				DC235B341600F64800D66AE8 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +154,25 @@
 			path = ../SVPullToRefresh;
 			sourceTree = "<group>";
 		};
+		DC235B381600F64800D66AE8 /* SVPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC235B3F1600F64800D66AE8 /* SVPullToRefreshTests.m */,
+				DC235B391600F64800D66AE8 /* Supporting Files */,
+			);
+			path = SVPullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		DC235B391600F64800D66AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC235B3A1600F64800D66AE8 /* SVPullToRefreshTests-Info.plist */,
+				DC235B3B1600F64800D66AE8 /* InfoPlist.strings */,
+				DC235B411600F64800D66AE8 /* SVPullToRefreshTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +192,25 @@
 			productName = SVPullToRefreshDemo;
 			productReference = 22E0D9141545EE5B00BB6BB5 /* SVPullToRefreshDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DC235B321600F64800D66AE8 /* SVPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC235B441600F64800D66AE8 /* Build configuration list for PBXNativeTarget "SVPullToRefreshTests" */;
+			buildPhases = (
+				DC235B2E1600F64800D66AE8 /* Sources */,
+				DC235B2F1600F64800D66AE8 /* Frameworks */,
+				DC235B301600F64800D66AE8 /* Resources */,
+				DC235B311600F64800D66AE8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC235B471600F65C00D66AE8 /* PBXTargetDependency */,
+			);
+			name = SVPullToRefreshTests;
+			productName = SVPullToRefreshTests;
+			productReference = DC235B331600F64800D66AE8 /* SVPullToRefreshTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -163,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				22E0D9131545EE5B00BB6BB5 /* SVPullToRefreshDemo */,
+				DC235B321600F64800D66AE8 /* SVPullToRefreshTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,7 +251,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC235B301600F64800D66AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC235B3D1600F64800D66AE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC235B311600F64800D66AE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22E0D9101545EE5B00BB6BB5 /* Sources */ = {
@@ -192,7 +289,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC235B2E1600F64800D66AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC235B401600F64800D66AE8 /* SVPullToRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC235B471600F65C00D66AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E0D9131545EE5B00BB6BB5 /* SVPullToRefreshDemo */;
+			targetProxy = DC235B461600F65C00D66AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22E0D9211545EE5B00BB6BB5 /* InfoPlist.strings */ = {
@@ -209,6 +322,14 @@
 				22E0D92E1545EE5B00BB6BB5 /* en */,
 			);
 			name = SVViewController.xib;
+			sourceTree = "<group>";
+		};
+		DC235B3B1600F64800D66AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC235B3C1600F64800D66AE8 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,6 +385,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +398,49 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC235B421600F64800D66AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVPullToRefreshDemo.app/SVPullToRefreshDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPullToRefreshTests/SVPullToRefreshTests-Prefix.pch";
+				INFOPLIST_FILE = "SVPullToRefreshTests/SVPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC235B431600F64800D66AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVPullToRefreshDemo.app/SVPullToRefreshDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPullToRefreshTests/SVPullToRefreshTests-Prefix.pch";
+				INFOPLIST_FILE = "SVPullToRefreshTests/SVPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -300,6 +461,15 @@
 			buildConfigurations = (
 				22E0D9331545EE5B00BB6BB5 /* Debug */,
 				22E0D9341545EE5B00BB6BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC235B441600F64800D66AE8 /* Build configuration list for PBXNativeTarget "SVPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC235B421600F64800D66AE8 /* Debug */,
+				DC235B431600F64800D66AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
