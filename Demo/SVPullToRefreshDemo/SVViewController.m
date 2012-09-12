@@ -76,4 +76,9 @@
     return [NSString stringWithFormat:@"Section %d", section];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SVViewController *detailController = [[SVViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:detailController animated:YES];
+}
+
 @end
